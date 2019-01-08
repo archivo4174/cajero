@@ -20,15 +20,33 @@ color: black;
   color: white;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   background-color: #EC4986;
+
 }
 .card{
   -webkit-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
 -moz-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
 box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
+
 }
 .tar1{
   position: relative;
-  top: 20px;
+  
  
       display: inline-flex;
+}
+
+.cobro{
+  position: fixed;
+  display: none;
+  left: 84%;
+
+}
+.vistadefactura{
+
+  display: inline-flex !important;
+
+}
+body{
+  font-family: 'Fredoka One', cursive;
+ font-size:  15px;
 }
