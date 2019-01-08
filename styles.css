@@ -1,0 +1,34 @@
+.nav-link {
+
+color: black;
+}
+.logo{
+  position: relative;
+  right: 27%;
+
+
+}
+.card-img-top{
+  display: cover;
+  width: 100%;
+  height: auto;
+
+}
+.btn-ttc,
+.btn-ttc:hover,
+.btn-ttc:active {
+  color: white;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  background-color: #EC4986;
+}
+.card{
+  -webkit-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
+-moz-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
+box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
+}
+.tar1{
+  position: relative;
+  top: 20px;
+ 
+      display: inline-flex;
+}
