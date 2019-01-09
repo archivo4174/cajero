@@ -1,54 +1,68 @@
 .nav-link {
 
-color: black;
+    color: black;
 }
-.logo{
-position: relative;
-  right: 17%;
- display: auto;
+
+.logo {
+    position: relative;
+    right: 17%;
+    display: auto;
 
 }
-.card-img-top{
-  display: cover;
-  width: 100%;
-  height: auto;
+
+.card-img-top {
+    background-size: cover;
+    width: auto;
+    max-height: 190px;
+    min-height: 190px;
+
+
+
+}
+.btn-eli{
+    color: white !important;
+    background-color: #F76262;
 
 }
 .btn-ttc,
 .btn-ttc:hover,
 .btn-ttc:active {
-  color: white;
-  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-  background-color: #EC4986;
+    color: white;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    background-color: #EC4986;
 
 }
-.card{
-  -webkit-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
--moz-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
-box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
+
+.card {
+    -webkit-box-shadow: 3px 3px 9px 1px rgba(92, 92, 92, 1);
+    -moz-box-shadow: 3px 3px 9px 1px rgba(92, 92, 92, 1);
+    box-shadow: 3px 3px 9px 1px rgba(92, 92, 92, 1);
 
 }
-.tar1{
-  position: relative;
-  
- 
-      display: inline-flex;
+
+.tar1 {
+    position: relative;
+
+
+    display: inline-flex;
 }
 
-.cobro{
-  position: center;
-  left: 40%;
-  display: none;
-  margin: 0 auto;
-  
+.cobro {
+    position: center;
+    left: 40%;
+    display: none;
+    margin: 0 auto;
+
 
 }
-.vistadefactura{
 
-  display: inline-flex !important;
+.vistadefactura {
+
+    display: inline-flex !important;
 
 }
-body{
-  font-family: 'Fredoka One', cursive;
- font-size:  15px;
+
+body {
+    font-family: 'Fredoka One', cursive;
+    font-size: 15px;
 }
