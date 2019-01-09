@@ -3,9 +3,9 @@
 color: black;
 }
 .logo{
-  position: relative;
-  right: 27%;
-
+position: relative;
+  right: 17%;
+ display: auto;
 
 }
 .card-img-top{
@@ -36,9 +36,11 @@ box-shadow: 3px 3px 9px 1px rgba(92,92,92,1);
 }
 
 .cobro{
-  position: fixed;
+  position: center;
+  left: 40%;
   display: none;
-  left: 84%;
+  margin: 0 auto;
+  
 
 }
 .vistadefactura{

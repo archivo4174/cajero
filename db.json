@@ -1,9 +1,78 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
+  "Paletas": [
+    {
+      "id": 1,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 2,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 3,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 4,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 5,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 6,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 7,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 8,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 9,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    },
+    {
+      "id": 10,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor mango",
+      "precio": 10,
+      "foto": "https://www.nevadaappeal.com/wp-content/uploads/2018/10/ArtsCouncil-LVN-101018.jpg"
+    }
   ],
-  "comments": [
+  "Bebidas": [
     { "id": 1, "body": "some comment", "postId": 1 }
   ],
-  "profile": { "name": "typicode" }
+  "Helados": { "name": "typicode" }
 }
