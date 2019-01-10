@@ -8,6 +8,6 @@ para agregar un nuevo documento es `git add` .
 para agragar un msj a algo modificado  `git commit –m “Message”`
 subir los cambios de la pagina `git push`
 
- Start JSON Server
+ Start JSON Server 
 
 `json-server --watch db.json`
