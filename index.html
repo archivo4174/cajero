@@ -2,6 +2,7 @@
 <html>
 
 <head>
+	<meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Fredoka+One" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
@@ -24,9 +25,8 @@
                     <a class="nav-link" href="administrador.html">Administrador</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="">iniciar sesion</a>
+                    <a class="nav-link" href="login.html">iniciar sesion</a>
                 </li>
-               
             </ul>
             <img style="margin: 0 auto; height: 60px;" src="./imagenes/logo.png" >
             <span class="navbar-text">
@@ -49,15 +49,27 @@
             <a class="nav-link" href="#">Otros</a>
         </li>
     </ul>
+
+    <!--login -->
+
+
+
+
+
+
     <!-- cuadro de factura -->
     <div class=" card cobro mt-4" id="cuadro" style="width: 18rem; ">
         <ul class="list-group list-group-flush">
             <li class="list-group-item " style="text-align: center; font-size: 25px;">Factura</li>
-            <li class="list-group-item">Articulos</li>
-            <li class="list-group-item">Total del pedido:</li>
+            <li id="Articulo" class="list-group-item">Articulos</li>
+            <li id="total" class="list-group-item">Total del pedido:</li>
             <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModalCenter">Pagar</button>
         </ul>
     </div>
+
+
+
+    
     <!-- Modal -->
     <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
@@ -75,7 +87,7 @@
                             <span class="input-group-text">$</span>
                             <span class="input-group-text">mx</span>
                         </div>
-                        <input type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
+                        <input id="efec" type="text" class="form-control" aria-label="Dollar amount (with dot and two decimal places)">
                     </div>
                     <p>Cambio</p>
                     <div class="input-group mb-3">
@@ -96,63 +108,45 @@
         <div class="row " id="listado">
         </div>
     </div>
-   
-
-
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                        <div class="modal-dialog" role="document">
-                          <div class="modal-content">
-                            <div class="modal-header">
-                              <h5 class="modal-title" id="exampleModalLabel">Añadir Producto</h5>
-                            </div>
-                            <div class="modal-body">
-                              <div class="input-group input-group-sm mb-3">
-                                  <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Nombre</span>
-                                  </div>
-                                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="nombre">
-                              </div>
-                                <div class="input-group input-group-sm mb-3">
-                                  <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Descripcion</span>
-                                  </div>
-                                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="descripcion">
-                              </div>
-                                <div class="input-group input-group-sm mb-3">
-                                  <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Precio</span>
-                                  </div>
-                                  <input type="number" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="precio">
-                              </div>                            
-                                 <div class="input-group input-group-sm mb-3">
-                                  <div class="input-group-prepend">
-                                  <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Url image</span>
-                                  </div>
-                                  <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="imagenurl">
-                              </div>
-                            </div>
-                            <div class="modal-footer">
-                              <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
-                              <button type="button" class="btn btn-primary" id="agregarproducto">Guardar</button>
-                            </div>
-                          </div>
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Añadir Producto</h5>
+                </div>
+                <div class="modal-body">
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Nombre</span>
                         </div>
-                      </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="nombre">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Descripcion</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="descripcion">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Precio</span>
+                        </div>
+                        <input type="number" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="precio">
+                    </div>
+                    <div class="input-group input-group-sm mb-3">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text" id="inputGroup-sizing-sm" style="width:93px !important">Url image</span>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Small" aria-describedby="inputGroup-sizing-sm" id="imagenurl">
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+                    <button type="button" class="btn btn-primary" id="agregarproducto">Guardar</button>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
     </div>
 </body>

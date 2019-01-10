@@ -75,7 +75,7 @@ function Eliminar(id) {
 
     var r = confirm("Deseas eliminarlo?");
     if (r == true) {
-        req.open('DELETE', 'http://localhost:3000/Paletas/' + id, true);
+        req.open('DELETE', 'http://localhost:3000/Paletas/' + id, false);
         req.send();
         location.reload();
     } else {
@@ -114,7 +114,7 @@ function Actualizar() {
     };
 //alert(JSON.stringify(JSONactualizar));
 
-    req.open('PUT', 'http://localhost:3000/Paletas/' + id, true);
+    req.open('PUT', 'http://localhost:3000/Paletas/' + id, false);
     req.setRequestHeader('Content-type', 'application/json; charset=UFT-8');
     req.send(JSON.stringify(JSONactualizar));
     location.reload();

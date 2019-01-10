@@ -1,13 +1,24 @@
 {
   "Paletas": [
     {
-      "id": 4
+      "id": 3,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor coco",
+      "precio": "10",
+      "foto": "http://drive.google.com/uc?export=view&id=1QlPubZyUlnIhrDEgeT_RNSNfVlg-z7_s"
+    },
+    {
+      "id": 4,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor chicle",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1sptpkDXQANlh2Kw29h3X5PEeTo8x7mb1"
     },
     {
       "id": 5,
-      "nombre": "Paletasssssssss342432243423",
-      "descripcion": "aaaaaaaaaaaa",
-      "precio": "345353434555233",
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor jamaica",
+      "precio": 10,
       "foto": "http://drive.google.com/uc?export=view&id=1lbDOMuVLrclxTRK2PAKl0w1WFCK2oCGl"
     },
     {
@@ -21,8 +32,15 @@
       "id": 7,
       "nombre": "Paleta",
       "descripcion": "paleta de agua sabor piña",
-      "precio": 10,
+      "precio": "10",
       "foto": "http://drive.google.com/uc?export=view&id=1zvs0CuLVIGYC2uFkr0SQD_dMyCnYkEvS"
+    },
+    {
+      "id": 8,
+      "nombre": "Paleta",
+      "descripcion": "paleta de agua sabor uva",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=19ZYzKsukXZu5F0VabrlF1yRwgcROJECb"
     },
     {
       "id": 9,
@@ -42,8 +60,10 @@
   "Bebidas": [
     {
       "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "nombre": "Agua",
+      "descripcion": "agua de sabor",
+      "precio": "15",
+      "foto": "http://drive.google.com/uc?export=view&id=1QlPubZyUlnIhrDEgeT_RNSNfVlg-z7_s"
     }
   ],
   "Helados": {
