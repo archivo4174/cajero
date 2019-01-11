@@ -62,11 +62,30 @@
       "id": 1,
       "nombre": "Agua",
       "descripcion": "agua de sabor",
-      "precio": "15",
+      "precio": 15,
       "foto": "http://drive.google.com/uc?export=view&id=1QlPubZyUlnIhrDEgeT_RNSNfVlg-z7_s"
+    },
+    {
+      "id": 2,
+      "nombre": "Agua",
+      "descripcion": "agua de sabor",
+      "precio": 15,
+      "foto": "http://drive.google.com/uc?export=view&id=1sptpkDXQANlh2Kw29h3X5PEeTo8x7mb1"
+    },
+    {
+      "id": 3,
+      "nombre": "Agua",
+      "descripcion": "agua de sabor",
+      "precio": 10,
+      "foto": "http://drive.google.com/uc?export=view&id=1lbDOMuVLrclxTRK2PAKl0w1WFCK2oCGl"
     }
   ],
-  "Helados": {
-    "name": "typicode"
+  "historial":[
+   {
+    "id": 1,
+    "producto": "agua",
+    "cantidad": 4,
+    "precio": 34
   }
+]
 }

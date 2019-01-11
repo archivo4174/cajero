@@ -1,4 +1,4 @@
-var totalGlobal=0;
+var totalGlobal = 0;
 
 function facturar(i) {
     var cuadro = document.getElementById('cuadro')
@@ -31,11 +31,11 @@ function functionCallBack() {
                 '<img class="card-img-top" src="' + dataJSON[i].foto + '">' +
                 '<div class="card-body">' +
                 '<h5 id="nom-' + i + '" class="card-title">' + dataJSON[i].nombre + '</h5>' +
-                '<span >Precio:</span>'+
+                '<span >Precio:</span>' +
                 '<h6 style="width:75%; float:right;" id="prec-' + i + '" class="card-title">' + dataJSON[i].precio + '</h6> ' +
                 '<p style="width:100%; float:right;" class="card-text">' + dataJSON[i].descripcion + '</p>' +
-                '<div ><a " href="#" class="btn btn-ttc" id="agregar" onClick="facturar(' + i + ')">agregar</a>' +
-                '<input  placeholder="1" id="unidad-' + i + '" style="width:50%; float:right;" type= "number" min="1" value="1" ></div>' +
+                '<div><a " href="#" class="btn btn-ttc" id="agregar" onClick="facturar(' + i + ')">agregar</a>' +
+                '<input  placeholder="1" id="unidad-' + i + '" style="width:50%; float:right;" type= "number" min="1" value="1" >' +
                 '</div>';
 
             document.getElementById('listado').innerHTML += formato;
@@ -54,15 +54,19 @@ function total(i) {
 
     var total = parseInt(uni) * parseInt(pre);
 
-    
 
-totalGlobal= totalGlobal+Number(Arti);
 
+    totalGlobal = totalGlobal + total;
+    console.log(totalGlobal)
 
     document.getElementById("Articulo").innerHTML += " <ul><li>" + nomb + " " + "$" + Arti + "  " + uni + "  " + "Unidades" + "</li>";
     document.getElementById("total").innerHTML = "Suma Total: $" + totalGlobal;
 
-    
+
+}
+
+function Cambio() {
+
 }
 
 
@@ -96,3 +100,13 @@ function gaurdado() {
         alert("se guardo con exito el producto")
     }
 }
+
+
+$("#efec").keyup(function() {
+    var efe = document.getElementById("efec").value;
+    console.log(efe);
+    var cambiototal = parseInt(efe) - parseInt(totalGlobal);
+    console.log(cambiototal);
+    document.getElementById("cambi").value = cambiototal;
+
+});

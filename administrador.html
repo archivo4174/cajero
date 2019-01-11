@@ -26,9 +26,11 @@
                 <li class="nav-item">
                     <a class="nav-link" href="">iniciar sesion</a>
                 </li>
-                <button type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">Agregar Producto</button>
+                <button  type="button" class="btn btn-warning" data-toggle="modal" data-target="#exampleModal">Agregar Producto</button>
             </ul>
             <img style="margin: 0 auto; height: 60px;" src="./imagenes/logo.png" >
+            <button style="position: relative; right:  20px;" type="button" class="btn btn-outline-warning" onclick="location.href='historial.html'">Historial</button>
+
             <span class="navbar-text">
       Bienvenido al sistema de cobranza La Michoacana
     </span>
@@ -96,6 +98,12 @@
         <div class="row " id="listado">
         </div>
     </div>
+
+    <div class="container ">
+        <div class="row " id="listado2">
+        </div>
+    </div>
+
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
@@ -180,7 +188,9 @@
     </div>
 </body>
 <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+<script type="text/javascript" src="adminaguas.js"></script>
 <script type="text/javascript" src="scriptsadmin.js"></script>
+
 <link rel="stylesheet" type="text/css" href="styles.css">
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
